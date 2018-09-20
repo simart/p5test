@@ -1,13 +1,12 @@
 function setup() {
-  
-createCanvas(400, 400);
+  createCanvas(200, 100);
 }
 
-
 function draw() {
-  
-background(0);
-	
-ellipse(200,200,200,200);
-
+  fill(255, 255, 0);
+  ellipse(100, 50, 80, 80);
+  arc(100,50,60,60,PI/8,7*PI/8);
+  fill(0, 0, 0);
+  ellipse(85, 40, 10, 15);
+  ellipse(115, 40, 10, 15);
 }
